@@ -16,7 +16,7 @@ window.addEventListener('DOMContentLoaded', () => {
   const deadline = new Date(+(new Date()) + 86400000);
   // const deadline = '2022-05-01';
 
-  tabs('.tabheader__item', '.tabheader__items', '.tabcontent', 'tabheader__item_active');
+  tabs('.tabheader__item', '.tabheader__items', '.tabcontent', 'tabheader__item--active');
   modal('[data-modal]', '.modal', modalTimerId);
   cards();
   timer(deadline);
